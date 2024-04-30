@@ -1,0 +1,35 @@
+h1 {
+    color: green;
+    font-size: 20px;
+}
+
+
+.buttons {
+    display: flex;
+    direction: row;
+    gap: 20px
+}
+
+.changeButton {
+    padding-inline: 10px;
+    padding-block: 20px;
+    border-width: 0;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.restoreButton {
+    padding-inline: 10px;
+    padding-block: 20px;
+    border-width: 0;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: grey;
+}
